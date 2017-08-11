@@ -25,3 +25,14 @@
 .top-name{
 	text-align: center;
 }
+
+.image-tag-class{
+	height: 100vh;
+	background-image: url(background.jpg)
+		background-size: cover;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
