@@ -43,7 +43,10 @@
 	text-align: center;	
 	border-bottom: dotted 2px #87CEFA;}
 
-.article-title{text-align: center;}
+.article-title{
+	text-align: center;
+	color: blue;
+	border-bottom: dotted 2px #87CEFA;}
 
 .article{text-align: center;}
 
