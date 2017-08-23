@@ -36,3 +36,15 @@
 	margin: 0;
 	padding: 0;
 }
+
+.index-name{text-align: center;}
+
+.articles-title{
+	text-align: center;	
+	border-bottom: dotted 2px #87CEFA;}
+
+.article-title{text-align: center;}
+
+.article{text-align: center;}
+
+.article-link{text-align: center;}
