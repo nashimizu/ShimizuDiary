@@ -51,3 +51,9 @@
 .article{text-align: center;}
 
 .article-link{text-align: center;}
+
+.edit-button{text-align: center;
+			　word-break: break-word;}
+
+.delete-button{text-align: center;
+			　word-break: break-word;}

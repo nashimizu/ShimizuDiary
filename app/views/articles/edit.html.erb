@@ -1,4 +1,4 @@
- <h1>新規投稿</h1>
+ <h1>編集</h1>
 
 <%= form_for(@article) do |f| %>
  
@@ -6,8 +6,7 @@
  <div>本文:<%= f.text_area :body %></div>
  <div>著者:<%= f.text_field :author %></div>
 
-<% if user_signed_in? %>
- <div><%= f.submit "送信" %></div>
-<% end %>
+ <div><%= f.submit "編集" %></div>
+
 
 <% end %>

@@ -6,3 +6,8 @@
 <div class="article-link"><%= @article.body %></div>
 <h2 class="article">著者</h2>
 <div class="article-link"><%= @article.author %></div>
+
+
+<div class="edit-button"><%= link_to "編集する", edit_article_path(@article.id), class: "btn edit-btn" %></div>
+<div class="delete-button"><%= link_to "削除", article_path(@article.id), method: :delete, "data-confirm" => "本当に削除しますか？" %></div>
+
